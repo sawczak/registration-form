@@ -9,28 +9,17 @@ body {
 }
 
 hr {
-    height: 2px;
+    height: 3px;
     background-color: #ffffff;
 }
 
-h1 {
-    font-size: 1.5em;
-    padding: 5px;
-    display: inline-block;
-    text-align: center;
-}
 
-.fas fa-sign-in-alt {
-
-}
 
 .main-header {
     background-image: url("../img/header.jpg");
     width: 100vw;
     height: 100vh;
-    background-position: center;
     background-size: cover;
-    position: relative;
 }
 
 .main-header-content {
@@ -38,4 +27,34 @@ h1 {
     height: 15vh;
     width: 100vw;
     opacity: .7; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 24px;
+}
+
+.main-header-content h1 {
+    font-size: 1.2em;
+    color: #fca80b;
+    margin: 20px;
+}
+
+
+
+
+.logIn {
+    margin-left: 700px;
+
+}
+
+input {
+    margin-left: 10px;
+}
+
+.btn {
+    width: 80px;
+    height: 21px;
+    background-color: #fca80b;
+    border: 1px solid #f2f1ed;
+    font-weight: bold;
 }
