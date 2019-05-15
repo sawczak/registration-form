@@ -43,9 +43,7 @@ body {
     height: .3vh;
     width: 100vw;
     background-color: #ffffff;
-    /* display: flex;
-    flex-direction: row;
-    align-items: flex-end; */
+    margin-bottom: -12px;
 }
 
 .logIn form input {
