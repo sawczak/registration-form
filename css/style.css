@@ -86,33 +86,37 @@ body {
 
 
 
+
+
 .container {
-    width: 400px;
-    height: 350px;
+    width: 32vw;
+    height: 47vh;
     background-color: #000000;
     opacity: .7;
     border: 1px solid #f2f1ed;
-    float: right;
-    margin: 80px;
-    padding: 0;
-    position: relative;
+    position: fixed;
+    right: 1.7vw;
+    top: 25vh;
+    font-size: 2vw;
 }
 
 .container h2 {
-    font-size: 1.7em;
+    font-size: 1em;
+}
+
+.container p {
+    font-size: .7em;
 }
 
 .container h2, p {
     color: #fca80b;
-    margin-left: 14px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin: 1vh 1.1vw;
 }
 
-.container hr {
+/* .container hr {
     height: 1px;
     margin-bottom: 10px;
-}
+} */
 
 .container form input[type="text"], .container form input[type="email"] {
     border-radius: 3px;
