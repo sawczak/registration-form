@@ -61,6 +61,7 @@ body {
     height: 4vh;
     margin: .5vw;
     padding: 10px;
+    
 }
 
 
@@ -109,10 +110,11 @@ body {
 
 
 .registration-form {
-    height: 50vh;
-    top: 36.5vh;
+    /* height: 50vh; */
+    top: 39vh;
     font-size: 1vw;
 }
+
 
 
 .registration-form form {
@@ -135,7 +137,8 @@ body {
 
 
 .registration-form form textarea {
-    flex-basis: 92%;
+    /* flex-basis: 90%; */
+    width: 29.5vw;
     height: 15vh;
     border-radius: 3px;
     margin: 5px auto 15px auto;
@@ -164,7 +167,8 @@ body {
 
 
  .registration-form form input[type="submit"] {
-    width: 4vw;
+    flex-basis: 22%;
+    width: 6vw;
     height: 4vh;
     border-radius: 3px;
     background-color: #fca80b;
@@ -172,7 +176,7 @@ body {
     font-weight: bold;
 }
 
-    
+
 
 
 #footer {
