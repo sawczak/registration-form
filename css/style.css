@@ -64,7 +64,6 @@ body {
     
 }
 
-
 .main-header-content form .btn[type="submit"] {
     width: 6vw;
     height: 4vh;
@@ -75,6 +74,7 @@ body {
     font-size: 0.3em;
     padding: 0;
 }
+
 
 
 
@@ -140,7 +140,7 @@ body {
     /* flex-basis: 90%; */
     width: 29.5vw;
     height: 15vh;
-    border-radius: 3px;
+    border-radius: 4px;
     margin: 5px auto 15px auto;
     display: flex;
     flex-direction: row;
@@ -166,7 +166,7 @@ body {
 
 
 
- .registration-form form input[type="submit"] {
+.registration-form form input[type="submit"] {
     flex-basis: 22%;
     width: 6vw;
     height: 4vh;
@@ -175,6 +175,29 @@ body {
     border: 1px solid #f2f1ed;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+input[type="email"]:hover, input[type="text"]:hover, textarea:hover {
+    color: #fff;
+    background-color: rgb(40, 245, 13);
+} 
+
+input[type="submit"]:hover, h1:hover {
+    color: #fff;
+}
+
+
+
+
+
+
 
 
 
